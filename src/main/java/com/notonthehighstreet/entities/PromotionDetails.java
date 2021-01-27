@@ -3,7 +3,7 @@ package com.notonthehighstreet.entities;
 import java.math.BigDecimal;
 import java.util.Objects;
 
-public class PromotionDetails {
+public final class PromotionDetails {
 
     private final String promoDescription;
     private final BigDecimal discountToApply;
